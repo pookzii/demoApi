@@ -1,0 +1,22 @@
+{
+    "Config": {
+        "auth": {
+            "jwtSecret": "MyS3cr3tK3Y",
+            "jwtSession": {
+                "session": false
+            }
+        },
+        "mongodbUrl": "mongodb://mongodb:27017/issuedb",
+        "postgresUrl": "postgres://isadmin:isadmin@localhost:5432/issue",
+        "uploadPath": "/Users/sommaik/Workspace/tiew_train/data/",
+        "smtp": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "secure": true,
+            "auth": {
+                "user": "www.saleagent@gmail.com",
+                "pass": "www.saleagent1234"
+            }
+        }
+    }
+}

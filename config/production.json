@@ -1,0 +1,21 @@
+{
+    "Config": {
+        "auth": {
+            "jwtSecret": "MyS3cr3tK3Y",
+            "jwtSession": {
+                "session": false
+            }
+        },
+        "mongodbUrl": "mongodb://192.168.33.10:27017/issuedb",
+        "uploadPath": "/home/vagrant/data/",
+        "smtp": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "secure": true,
+            "auth": {
+                "user": "www.saleagent@gmail.com",
+                "pass": "www.saleagent1234"
+            }
+        }
+    }
+}
